@@ -1,0 +1,9 @@
+[Plugin]
+Module=delete-play
+IAge=1
+Builtin=false
+Name=Delete Play
+Description=Delete the currently playing file
+Authors=Christopher A. Doyle
+Copyright=Copyright © 2013 Christopher A. Doyle
+Website=http://code.google.com/p/totem-plugin-delete-play
