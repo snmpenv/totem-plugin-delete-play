@@ -1,0 +1,18 @@
+A Totem plugin that adds the ability to delete the currently playing file.
+The plugin provides three ways to delete the file:
+  - choose the menu item Movie->Delete
+  - or right click in player window and choose Delete from the pop-up menu
+  - or type Ctrl+D
+
+
+INSTALLATION
+------------
+./configure
+make
+make install  # as root
+
+
+REQUIREMENTS
+------------
+Totem
+libpeas
