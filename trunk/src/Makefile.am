@@ -18,3 +18,5 @@ libdelete_play_la_LDFLAGS=$(DEPS_LIBS)$(plugin_ldflags) -version-info 1:0:0
 delete_play_plugindir=$(libdir)
 delete_play_plugin_DATA=delete-play.plugin
 
+uninstall-hook:
+	rm -df "$(DESTDIR)$(libdir)"
