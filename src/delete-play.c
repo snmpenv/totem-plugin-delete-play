@@ -107,7 +107,6 @@ totem_deleteplay_file_opened(TotemObject           *totem,
                              TotemDeleteplayPlugin *pi)
 {
   TotemDeleteplayPluginPrivate *priv   = pi->priv;
-  GtkAction                    *action = NULL;
 
   /* free the old saved mrl if any */
   if (pi->priv->mrl != NULL) {
@@ -122,7 +121,7 @@ totem_deleteplay_file_opened(TotemObject           *totem,
   /* Make menu item sensitive if mrl starts with "file:".  This is the only
      type of file that this plugin can delete. */
   if (g_str_has_prefix(mrl, "file:")) {
-    action = gtk_action_group_get_action(priv->action_group, ACTION_NAME);
+    GtkAction *action = gtk_action_group_get_action(priv->action_group, ACTION_NAME);
     gtk_action_set_sensitive(action, TRUE);
     pi->priv->mrl = g_strdup(mrl);  /* save the mrl of the newly opened file */
   }
