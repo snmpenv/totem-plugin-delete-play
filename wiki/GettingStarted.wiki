@@ -18,7 +18,7 @@ Under 'Edit' pull-down menu, select "Plugins...".  In 'Configure Plugins' pop-up
 = Using plugin =
 
 Under 'Movie' pull-down menu, select 'Delete':
-http://totem-plugin-delete-play.googlecode.com/svn/doc/images/delete_pull_down.jpg
+http://totem-plugin-delete-play.googlecode.com/svn/wiki/images/delete_pull_down.jpg
 
 Right click in video window, select 'Delete':
-http://totem-plugin-delete-play.googlecode.com/svn/doc/images/delete_right_click.jpg
+http://totem-plugin-delete-play.googlecode.com/svn/wiki/images/delete_right_click.jpg
