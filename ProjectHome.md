@@ -1,0 +1,1 @@
+Adds a Delete button to the Movie menu and to the right-click pop-up menu.
